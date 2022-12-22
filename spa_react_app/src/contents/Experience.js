@@ -4,10 +4,9 @@ import { Container } from 'react-bootstrap';
 
 import WideCard from '../components/WideCard';
 
-import precise_logo from '../assets/resources/logos/precise_logo.png';
-import inaxus_logo from '../assets/resources/logos/inaxus_logo.png';
-import cloudchain_logo from '../assets/resources/logos/cloudchain_logo.png';
-import kpit_logo from '../assets/resources/logos/kpit_logo.png';
+import momenday_logo from '../assets/resources/logos/momenday.png';
+import chart from '../assets/resources/logos/chart.png';
+import xcept from '../assets/resources/logos/xcept.png';
 
 class Experience extends Component {
     render () {
@@ -17,51 +16,45 @@ class Experience extends Component {
                     <h1 className='pagesubhead'>Work Experience</h1>
 
                     <WideCard 
-                        image={precise_logo} 
+                        image={momenday_logo} 
                         text={[
-                            `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suscipit luctus posuere. 
-                            Nulla nec turpis velit. Nunc eu scelerisque ante.`, <br/>, 
-                            `Donec ut tortor nec elit pulvinar suscipit. 
-                            Donec tincidunt nunc lacus, a pretium leo pellentesque vitae. Pellentesque habitant morbi 
-                            tristique senectus et netus et malesuada fames ac turpi`
+                            `Frontend Software Engineer`,<br/>,
+                            `Momenday Technology Limited, Hong Kong` ,<br/>,
+                            `Momenday is a Hong Kong local entertainment activities inquiry platform. It currently has 100+ unforgettable entertainment activities for the public, companies, and schools to plan and organize various activities.
+                            `,<br/>,`
+                            - Developed several pages for corporate users and customers for sending their requests to the system. `,<br/>,`- Improved the design of the website by making it responsive, user-friendly, and functional.
+                            `,<br/>,`- Made webpages in several languages by using i18n.
+                            `,<br/>,`- Applied stacks: ReactJS, HMTL, CSS, Typescript, and Firebase.`
                         ]}
                     />
                     <WideCard 
-                        image={inaxus_logo} 
+                        image={chart} 
                         text={[
-                            `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suscipit luctus posuere. 
-                            Nulla nec turpis velit. Nunc eu scelerisque ante.`, <br/>, 
-                            `Donec ut tortor nec elit pulvinar suscipit. 
-                            Donec tincidunt nunc lacus, a pretium leo pellentesque vitae. Pellentesque habitant morbi 
-                            tristique senectus et netus et malesuada fames ac turpi`
+                            `Frontend Developer  `,<br/>,`Chartipedia, Finland `,<br/>,`
+                            - Startup company that launched a data visualization content sharing platform which brings together creators, readers, educators, and corporates. `,<br/>,`
+                            - Refactored the code for several pages `,<br/>,`
+                            - Improved the design of one page `,<br/>,`
+                            - Applied stacks: NextJS, HTML, and CSS.
+                            `
                         ]}
                     />
                     <WideCard 
-                        image={cloudchain_logo} 
+                        image={xcept} 
                         text={[
-                            `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suscipit luctus posuere. 
-                            Nulla nec turpis velit. Nunc eu scelerisque ante.`, <br/>, 
-                            `Donec ut tortor nec elit pulvinar suscipit. 
-                            Donec tincidunt nunc lacus, a pretium leo pellentesque vitae. Pellentesque habitant morbi 
-                            tristique senectus et netus et malesuada fames ac turpi`
-                        ]}
-                    />
-                    <WideCard 
-                        image={kpit_logo} 
-                        text={[
-                            `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suscipit luctus posuere. 
-                            Nulla nec turpis velit. Nunc eu scelerisque ante.`, <br/>, 
-                            `Donec ut tortor nec elit pulvinar suscipit. 
-                            Donec tincidunt nunc lacus, a pretium leo pellentesque vitae. Pellentesque habitant morbi 
-                            tristique senectus et netus et malesuada fames ac turpi`
+                            `Software Engineer `,<br/>,`
+                            XCEPT Limited, Hong Kong`,<br/>,`
+                            - XCEPT is a hybrid innovative studio, crafting unique experience at the junction of art, technology, design & culture. The company creates tailor-made and high-end innovations to tell brand stories without loss intranslation, harnessing every medium with our most authentic ideas. `,<br/>,`
+                            - Developed the base of the web mobile application based on the object-recognition model. `,<br/>,`
+                            - Developed the 3d world with a responsive style `,<br/>,`
+                            - Applied stacks: ReactJS, HTML, CSS, Python, and Three.js`
                         ]}
                     />
                 </div>
                 <div className='expedu_section mb-0'>
                     <h1 className='pagesubhead'>Education</h1>
 
-                    <h2>Bachelor of Engineering (Electronics)</h2>
-                    <p>Pune University -- 2011 - 2015</p>
+                    <h2>BSc in Computer Science </h2>
+                    <p>HKBU 2019-2023</p>
                 </div>
             </Container>
         )

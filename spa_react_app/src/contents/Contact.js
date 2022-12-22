@@ -6,17 +6,17 @@ class Contact extends Component {
     render () {
         return (
             <div className="container">
-                <h1 className='pagehead'>Reach Out to Me!</h1>
+                <h1 className='pagehead'>Please don’t hesitate to reach out if you have any questions about my background.</h1>
                 <p>
-                    Whether you want to get in touch, discuss projects, or just say hi, I'd love you hear from you {String.fromCodePoint('0x1f60A')}
+                I look forward to the opportunity to speak with you further; thank you for your time and consideration.
                 </p>
 
                 <div className="sendMail">
-                    <a href="mailto: deshpandem0@gmail.com">
-                        <i className='bx bx-envelope' ></i> deshpandem10@gmail.com
+                    <a href="mailto: yerkegali.official@gmail.com">
+                        <i className='bx bx-envelope' ></i> yerkegali.official@gmail.com
                     </a>
                     <div>
-                        <i className='bx bx-map'></i> Dubai, United Arab Emirates
+                        <i className='bx bx-map'></i> Hong Kong, Kowloon Tong
                     </div>
                 </div>
                 <Social/>

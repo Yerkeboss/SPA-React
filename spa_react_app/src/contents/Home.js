@@ -7,7 +7,7 @@ import {
 } from 'react-bootstrap';
 
 import TypewriterEffect from "react-typewriter-effect";
-import AOS from 'aos';
+// import AOS from 'aos';
 
 import userpic from '../assets/resources/user.png';
 
@@ -16,9 +16,9 @@ import Social from '../components/Social';
 import '../assets/scss/home.scss';
 
 class Home extends Component {
-    componentDidMount() {
-        AOS.init();
-    }
+    // componentDidMount() {
+    //     AOS.init();
+    // }
 
     render() {
         return (
@@ -32,7 +32,7 @@ class Home extends Component {
                                 }
                                 startDelay={100}
                                 cursorColor="black"
-                                text="Hi there, I'm Madhura"
+                                text="Hello, I am Yerkegali"
                                 typeSpeed={50}
                                 hideCursorAfterText={true}
                             />
@@ -45,7 +45,7 @@ class Home extends Component {
                                 }
                                 startDelay={1600}
                                 cursorColor="black"
-                                text="I'm a UI/UX Developer at Precise Communications Design LLC."
+                                text="I am Software Engineer."
                                 typeSpeed={40}
                                 hideCursorAfterText={true}
                             />

@@ -6,13 +6,13 @@ class Social extends Component {
     render() {
         return (
             <div className='social'>
-                <a href="https://github.com/deshpandem10" target="_blank">
+                <a href="https://github.com/Yerkeboss" target="_blank">
                     <i className='bx bxl-github'></i>
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.instagram.com/" target="_blank">
                     <i className='bx bxl-instagram' ></i>
                 </a>
-                <a href="https://ae.linkedin.com/in/madhura-deshpande-436621100" target="_blank">
+                <a href="https://www.linkedin.com/in/yerkegali-zhamalbekov-57b748225/" target="_blank">
                     <i className='bx bxl-linkedin-square' ></i>
                 </a>
             </div>
